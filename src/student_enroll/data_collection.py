@@ -143,9 +143,9 @@ def main():
                         box_w = x2 - x1
                         box_h = y2 - y1
 
-                        pad_top    = int(box_h * 0.5) + padding
-                        pad_bottom = int(box_h * 0.3) + padding
-                        pad_sides  = int(box_w * 0.4) + padding
+                        pad_top    = int(box_h * 0.2) + padding
+                        pad_bottom = int(box_h * 0.15) + padding
+                        pad_sides  = int(box_w * 0.15) + padding
 
                         h, w = frame.shape[:2]
                         x1 = max(0, x1 - pad_sides)

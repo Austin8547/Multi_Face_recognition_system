@@ -2,5 +2,7 @@ weights/
 __pycache__/
 .vscode/
 .idea/
-data/
+data/embeddings
+data/enrollment
 yolo_work/
+benchmark_results/
